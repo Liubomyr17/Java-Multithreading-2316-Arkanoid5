@@ -1,0 +1,15 @@
+2413 Arkanoid 5
+What else is missing from the Arkanoid class?
+First, he needs the run () method, which will describe the main logic of the program.
+We also need the move () method - which will move all objects requiring movement by one step.
+Create the run () and move () methods.
+We also need a NOT private static variable game of type Arkanoid, which will store a link to the created instance of the Arkanoid class.
+It should look something like this:
+static Arkanoid game;
+
+Requirements:
+1. In the Arkanoid class, the void run () method must be created without parameters.
+2. In the Arkanoid class, the void move () method must be created without parameters.
+3. The run method must be accessible from outside the Arkanoid class.
+4. The move method must be accessible from outside the Arkanoid class.
+5. A non-private static game field of type Arkanoid must be created in the Arkanoid class.
